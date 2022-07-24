@@ -1,0 +1,103 @@
+nav {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: max-content;
+  display: block;
+  padding: 0.7rem 1.7rem;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2rem;
+  display: flex;
+  gap: 0.8rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
+}
+
+nav a {
+  background: transparent;
+  padding: 0.9rem;
+  border-radius: 50%;
+  display: flex;
+  color: var(--color-light);
+  font-size: 1.1rem;
+
+}
+
+nav a:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+nav a.active {
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
+
+
+
+
+/* <div className="ourServices">
+<div className="bgimage">
+  <Zoom delay={60} duration={2000}>
+    <div className="header">
+      <h1>Our Services</h1>
+    </div>
+  </Zoom>
+
+  <div className="services ">
+    <Fade left big delay={60} duration={2000}>
+      <div className="container">
+        <div className="card">
+          <div className="imgbox">
+            <DiningIcon className="img" />
+          </div>
+          <div className="contextBox">
+            <h2>Dine In</h2>
+            <a href="#">Reservation</a>
+          </div>
+        </div>
+      </div>
+    </Fade>
+
+    <Fade top big delay={60} duration={2000}>
+      <div className="container">
+        <div className="card">
+          <div className="imgbox">
+            <TakeoutDiningSharpIcon className="img" />
+          </div>
+          <div className="contextBox">
+            <h2>Take Out</h2>
+            <a href="#">Call Us</a>
+          </div>
+        </div>
+      </div>
+    </Fade>
+
+    <Fade bottom big delay={60} duration={2000}>
+      <div className="container">
+        <div className="card">
+          <div className="imgbox">
+            <DirectionsCarFilledSharpIcon className="img" />
+          </div>
+          <div className="contextBox">
+            <h2>Delivery</h2>
+            <a href="#">Order Now</a>
+          </div>
+        </div>
+      </div>
+    </Fade>
+    <Fade right big delay={60} duration={2000}>
+      <div className="container">
+        <div className="card">
+          <div className="imgbox">
+            <BentoSharpIcon className="img" />
+          </div>
+          <div className="contextBox">
+            <h2>Bento </h2>
+            <a href="#">Call Us</a>
+          </div>
+        </div>
+      </div>
+    </Fade>
+  </div>
+</div>
+</div> */
